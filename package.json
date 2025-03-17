@@ -8,6 +8,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "clients": "npm start --prefix ./clients",
+    "build": "react-scripts build",
     "dev": "concurrently \"npm run start\" \"npm run clients\""
   },
   "browser": {
